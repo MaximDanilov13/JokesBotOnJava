@@ -17,11 +17,11 @@ public class Telegram extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1056837408:AAGvFB68UQ-ojm2oFt3nAzNNqor2F01VbYI";
+        return "765452665:AAGT8KJh1RrQaJifePHpHIKjjDLyQ4Y6gvw";
     }
 
     @Override
-    public String getBotUsername() { return "maximdanilov_bot"; }
+    public String getBotUsername() { return "Jokes_best_bot"; }
 
     @Override
     public void onUpdateReceived(Update update) {

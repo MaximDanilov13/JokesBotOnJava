@@ -23,7 +23,6 @@ public class MainMenuKeyboard {
         KeyboardRow keyboardFirstRow = new KeyboardRow();
         keyboardFirstRow.add("Help");
         keyboardFirstRow.add("Menu");
-        keyboardFirstRow.add("Good");
 
         keyboard.add(keyboardFirstRow);
 
