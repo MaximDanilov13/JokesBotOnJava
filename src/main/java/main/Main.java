@@ -13,7 +13,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException, JSONException {
-        JsonFileRead.baseData = JsonFileRead.fileRead(new File("").getAbsolutePath() + "\\src\\main\\java\\DatabaseGeneration\\joke.txt");
+        JsonFileRead.baseData = JsonFileRead.fileRead(new File("").getAbsolutePath() + "\\Botik\\src\\main\\java\\DatabaseGeneration\\joke.txt");
         ApiContextInitializer.init();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
 
